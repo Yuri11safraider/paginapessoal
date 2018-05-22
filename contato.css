@@ -1,0 +1,79 @@
+Body {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+header {
+    height: 100px;
+    background-color: gray;
+
+}
+
+nav {
+    padding-top: ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.contato) {
+    background-color: red;
+}
+
+.contato {
+    background-color: #4CAF50;
+}
+
+section {
+    background-color: black;
+}
+
+.headerum {
+    font-size: 25px;
+    background-color: gray;
+}
+
+h2 {
+    font-size: 20px;
+    background-color: gray;
+}
+
+h3 {
+    font-size: 15px;
+    background-color: black
+}
+
+.form {
+    background-color: gray;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.contato {
+    background-color: firebrick;
+}
